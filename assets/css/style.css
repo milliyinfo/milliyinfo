@@ -124,6 +124,7 @@ h6 {
 
 #header .logo img {
   max-height: 40px;
+  border-radius: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1089,19 +1090,33 @@ section {
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 8px;
   border-radius: 5px;
   background: #fff;
   transition: 0.5s;
   height: 100%;
+  margin-top: 20px;
 }
 
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
-  border-radius: 50%;
-}
+  /* width: 180px; */
+  /* border-radius: 50%; */
 
+}
+/* ############################################################################# */
+
+.teamphoto img {
+  width: 200px;
+}
+.social {
+  margin-top: 20px;
+  /* width: 40px; */
+}
+.social img {
+  width: 0px;
+}
+/* ######################################################################################## */
 .team .member .pic img {
   transition: ease-in-out 0.3s;
 }
@@ -1146,7 +1161,7 @@ section {
 }
 
 .team .member .social {
-  margin-top: 12px;
+  margin-top: 25px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -1165,8 +1180,12 @@ section {
 
 .team .member .social a i {
   color: #37517e;
-  font-size: 16px;
-  margin: 0 2px;
+  font-size: 20px;
+  margin: 100%;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .team .member .social a:hover {
